@@ -2,6 +2,7 @@
     background-image: url('img/ocean.jpg');
     width: 900px;
     height: 700px;
+    
 }
 .player {
     position: absolute;
@@ -19,7 +20,11 @@
 
 .missile {
     position: absolute;
-    width: 2px;
+    width: 4px;
     height: 10px;
     background-color: orange;
+}
+
+.score {
+    display: inline;
 }
